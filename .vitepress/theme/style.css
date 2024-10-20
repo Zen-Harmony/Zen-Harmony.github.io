@@ -141,15 +141,14 @@
 
 div.VPLink.no-icon.VPFeature {
   article.box {
-    border: var(--vp-c-brand-3) 1px solid;
+    border: var(--vp-c-divider) 1px solid;
     border-radius: 0.7em;
     transition: all 0.4s ease 0s;
-    box-shadow: 10px 10px 10px var(--vp-c-important-soft);
+    box-shadow: 10px 10px 10px var(--vp-c-bg-elv);
   }
   article.box:hover {
-    background-color: var(--vp-c-important-soft);
-    transform: scale(97%);
-    transition: all 0.3s;
+    background-color: var(--vp-c-bg-elv);
+    transition: all 0.4s;
   }
   article.box:hover .icon {
     background-color: transparent;
@@ -157,6 +156,7 @@ div.VPLink.no-icon.VPFeature {
     transition: all 0.4s;
   }
   article.box .icon {
+    border-radius: .35em;
     transition: all 0.4s ease 0s;
   }
 }
@@ -164,7 +164,15 @@ div.VPLink.no-icon.VPFeature {
 /* button */
 
 a.VPButton {
-  border-radius: 0.7em !important;
+  border-radius: 0.65em !important;
+}
+
+a.VPButton.medium.alt {
+  background-color: var(--vp-c-divider);
+}
+
+a.VPButton.medium.alt:hover {
+  background-color: var(--vp-c-gutter);
 }
 
 /* Custom Block */
@@ -197,13 +205,26 @@ a.VPButton {
 a.mark {
   transition: .2s;
   text-decoration: none !important;
-  background: linear-gradient(var(--vp-c-important-soft), var(--vp-c-important-soft)) no-repeat 0 100% / 100% .1em;
+  background: linear-gradient(var(--vp-c-divider), var(--vp-c-divider)) no-repeat 0 100% / 100% 1px;
 }
 a.mark:hover {
   border-radius: 4px;
   padding: 0px 3px 0px 3px;
-  background: linear-gradient(var(--vp-c-important-soft), var(--vp-c-important-soft)) no-repeat 0 100% / 100% 100%;
+  background: linear-gradient(var(--vp-c-divider), var(--vp-c-divider)) no-repeat 0 100% / 100% 100%;
 }
 a.mark:hover::after {
   content: '' !important;
+}
+
+/* blockquote */
+blockquote {
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 0.8em;
+  padding: 10px 15px 10px 15px!important;
+}
+
+/* header-anchor */
+.header-anchor {
+  display: none;
 }
