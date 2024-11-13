@@ -11,6 +11,9 @@ hero:
       text: 🚀 Let's go!
       link: /join-us
     - theme: alt
+      text: Linux Knowledge Base
+      link: https://zen-harmony.github.io/doc-zy
+    - theme: alt
       text: GitHub
       link: https://github.com/Zen-Harmony
 
