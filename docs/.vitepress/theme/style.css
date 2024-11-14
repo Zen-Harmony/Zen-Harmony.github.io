@@ -148,15 +148,16 @@
 
 /* article */
 
-div.VPLink.no-icon.VPFeature {
+a.VPLink.link.no-icon.VPFeature {
   article.box {
     border: var(--vp-c-divider) 1px solid;
-    border-radius: 0.7em;
+    border-radius: 0.8em;
     transition: all 0.4s ease 0s;
     box-shadow: 10px 10px 10px var(--vp-c-bg-elv);
   }
   article.box:hover {
-    background-color: var(--vp-c-bg-elv);
+    background-color: var(--vp-c-important-soft);
+    border: var(--vp-c-brand-1) 1px solid;
     transition: all 0.4s;
   }
   article.box:hover .icon {
@@ -168,7 +169,9 @@ div.VPLink.no-icon.VPFeature {
     border-radius: .35em;
     transition: all 0.4s ease 0s;
   }
+  border: var(--vp-c-divider) 0px solid;
 }
+
 
 /* button */
 
@@ -226,6 +229,7 @@ a.mark:hover::after {
 }
 
 /* blockquote */
+
 blockquote {
   background-color: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider) !important;
@@ -237,3 +241,4 @@ blockquote {
 .header-anchor {
   display: none;
 }
+

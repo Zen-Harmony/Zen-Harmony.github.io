@@ -1,23 +1,15 @@
-# What does Zen Harmony's Chinese name mean?
+# "志海融新" 的含义是什么?
 
-"志海融新", symbolizing **harmony**, encapsulates the **essence** of Zen Harmony Team.
+"志海融新" 象征着和谐。
 
-## "志"
-"志" equivalent to "智" represents intelligence as well as aspirations and ambitions. 
+## 志
+“志” 通 “智”，代表智慧，也指有志气、有抱负。表达了团队成员们不仅拥有聪明才智，还怀揣着远大的志向和坚定的信念。
 
-It highlights that team members possess not only intelligence and wisdom but also lofty aspirations and firm beliefs.
+## 海
+“海” 象征着广阔无垠，寓意团队像海洋一样包容，能够接纳不同的想法和观点，为成员们提供一个自由、开放的交流平台。
 
-## "海"
-"海" symbolizes vastness and infinity. 
+## 融
+“海” 象征着广阔无垠，寓意团队像海洋一样包容，能够接纳不同的想法和观点，为成员们提供一个自由、开放的交流平台。
 
-It implies that the team is as inclusive as the ocean, capable of accepting different ideas and perspectives, providing a free and open communication platform for its members.
-
-## "融"
-"融" signifies integration and convergence. 
-
-It emphasizes close cooperation and mutual learning among team members, collectively pooling their wisdom and talents into a powerful force.
-
-## "新"
-"新" represents innovation and progress. 
-
-It suggests that the team is dedicated to continually exploring new fields and opportunities, constantly innovating, and creating more value and achievements for both the team and its members.
+## 新
+“新” 则代表着创新和进步，寓意团队致力于不断探索新的领域和机会，不断推陈出新，为团队和成员们创造更多的价值和成就。

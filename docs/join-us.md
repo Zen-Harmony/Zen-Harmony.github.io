@@ -1,37 +1,33 @@
-# Join Us
-Welcome to the Zen Harmony Team! 
-We are an inclusive and vibrant family.
-No matter what profession or field you come from, as long as you love learning, enjoy sharing, and adhere to laws and team rules, you can become a part of us. 
-Below are the joining rules for our team, please read and follow them carefully:
+# 加入我们
+欢迎来到志海融新团队！我们是一个包容性强、充满活力的大家庭，无论您是从事什么职业或领域，只要您热爱学习、乐于分享、遵守法律法规和团队规则，都可以成为我们的一员。以下是我们团队的加入规则，请仔细阅读并遵守：
 
-## Inclusivity
-- We welcome friends from all walks of life with diverse backgrounds and skills to join our team.<br>
-- Mutual respect is key within the team, discrimination or exclusion of any member is not tolerated.<br>
-- We encourage members to exchange ideas, share experiences, and grow together.
+## 包容性
+- 我们欢迎来自各行各业、拥有不同背景和技能的朋友加入团队。<br>
+- 团队内部相互尊重，不歧视、不排斥任何成员。<br>
+- 鼓励成员间交流思想、分享经验，共同成长。
 
-## Laws and Regulations
-- Team members must adhere to the laws and regulations of the People's Republic of China and must not engage in any illegal activities.<br>
-- Any content published within the team, including but not limited to text, images, and videos, must not violate laws and regulations.
+## 法律法规
+- 团队成员必须遵守中华人民共和国的法律法规，不得从事任何违法活动。<br>
+- 在团队内发布的任何内容，包括但不限于文字、图片、视频等，均不得违反法律法规。
 
-## Team Rules
-- Team members should actively participate in team activities and contribute to the team's development.<br>
-- When communicating within the team, maintain politeness and friendliness, avoiding aggressive language.<br>
-- Respect the privacy of team members and do not disclose others' information without permission.<br>
-- Team members should abide by team decisions, if there are objections, they can be raised and discussed through proper channels.
+## 团队规则
+- 团队成员应积极参与团队活动，为团队的发展贡献力量。<br>
+- 在团队内部沟通时，保持礼貌、友善，避免使用攻击性语言。<br>
+- 尊重团队成员的隐私，不得擅自泄露他人信息。<br>
+- 团队成员应遵守团队决策，如有异议，可通过正当途径提出并讨论。
 
-## Code Projects and Repository Management
-- If there are code project needs, team members can organize them internally and establish repositories in the name of the team.<br>
-- Repository management should follow best practices from the open-source community to ensure code quality, security, and maintainability.<br>
-- Team members should actively participate in code reviews, testing, and other activities to collectively improve project quality.
+## 代码项目与仓库管理
+- 如有代码项目需求，团队成员可以在团队内部组织，并以团队的名义建立仓库。<br>
+- 如有代码项目需求，团队成员可以在团队内部组织，并以团队的名义建立仓库。<br>
+- 团队成员应积极参与代码审查、测试等工作，共同提高项目质量。
 
-## Mutual Support
-- Team members should help each other and progress together.<br>
-- We encourage members to share their knowledge, skills, and experiences to create more value for the team.<br>
-- When facing challenges, team members should actively seek help and be willing to assist others.
+## 互帮互助
+- 团队成员间应互帮互助，共同进步。<br>
+- 鼓励成员分享自己的知识、技能和经验，为团队创造更多价值。<br>
+- 在遇到问题时，团队成员应积极寻求帮助，并愿意为其他成员提供帮助。
 
-## Conclusion
-- The Zen Harmony Team is a big family, and we look forward to the contributions of every member. As long as everyone adheres to laws and team rules, actively participates in team activities, and supports one another, we can work together to create a better future!<br>
-- Please note that the above rules are basic guidelines for joining the team, and specific details may be adjusted and refined according to the team's needs as it develops. We encourage everyone to stay engaged and share valuable feedback and suggestions.
-
-## Join Now
-Click <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0&group_code=985191565" class="mark">here</a> to join our QQ group!
+## 总结
+- 志海融新团队是一个大家庭，我们期待每一位成员的加入和贡献。只要大家遵守法律法规和团队规则，积极参与团队活动，互帮互助，我们一定能够共同创造出一个更加美好的未来！<br>
+- 请注意，以上规则仅为团队加入的基本准则，具体细节可能会根据团队发展的需要进行调整和完善。请大家保持关注，并随时提出宝贵的意见和建议。
+## 加入
+点击 <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0&group_code=985191565" class="mark">此处</a> 加入我们的 QQ 群。
