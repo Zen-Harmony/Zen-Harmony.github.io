@@ -11,10 +11,8 @@ hero:
       link: https://github.com/Zen-Harmony
     - theme: alt
       text: Linux 觅知园
-      link: https://zen-harmony.github.io/doc-zy
+      link: https://doc.zen-harmony.top
     
-
-
 features:
   - icon: 📖
     title: 阅读文章
