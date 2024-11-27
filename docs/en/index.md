@@ -11,10 +11,8 @@ hero:
       link: https://github.com/Zen-Harmony
     - theme: alt
       text: Linux Knowledge Base
-      link: https://zen-harmony.github.io/doc-zy
+      link: https://doc.zen-harmony.top/en
     
-
-
 features:
   - icon: 📖
     title: Read the Article
