@@ -20,10 +20,10 @@ features:
     details: 请点击卡片以前往教程站。
   - icon: 🚀
     title: '加入我们'
-    details: '我们是一个包容性强、充满活力的大家庭，无论您是从事什么职业或领域，只要您热爱学习、乐于分享、遵守法律法规和团队规则，都可以成为我们的一员。'
+    details: '大家一起携手共筑温暖与梦想的港湾！'
     link: /join-in
   - icon: 🤔
-    title: '"志海融新" 寓意着什么？'
+    title: '"志海融新" 寓意'
     details: '寓意着智慧包容，合作创新，共铸辉煌！'
     link: /meaning
   - icon: 🫡
@@ -31,4 +31,3 @@ features:
     details: '每位贡献者都是团队宝贵的财富，值得我们铭记与感激！'
     link: /contributors
 ---
-
