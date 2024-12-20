@@ -9,3 +9,5 @@
 - [青稚](https://github.com/Linux-qitong)
 - [阿尼樱奈奈](https://github.com/Aninana)
 - [silvaire_qwq](https://github.com/silvaire-qwq)
+- [晚秋](/contributors)
+- [花雨落逝](https://github.com/Huayuluoshi)
