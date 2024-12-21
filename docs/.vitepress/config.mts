@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   head: [
       // 添加图标
-      ['link', { rel: 'icon', href: '/img/house-solid.png' }]
+      ['link', { rel: 'icon', href: '/img/house-solid.webp' }]
     ],
   cleanUrls: true,
   markdown: {
