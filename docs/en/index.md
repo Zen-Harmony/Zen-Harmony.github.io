@@ -19,11 +19,11 @@ features:
     link: /en
     details: "Please click the card to read the article."
   - icon: 🚀
-    title: 'Join In'
-    details: 'Let's work together to build a harbor of warmth and dreams!'
+    title: Join In
+    details: Let's work together to build a harbor of warmth and dreams!
     link: /en/join-in
   - icon: 🤔
     title: "What does Zen Harmony mean?"
-    details: 'The Mind is like water, unperturbed by waves, all beings coexist, harmoniously fused.'
+    details: The Mind is like water, unperturbed by waves, all beings coexist, harmoniously fused.
     link: /en/implied-meaning
 ---
