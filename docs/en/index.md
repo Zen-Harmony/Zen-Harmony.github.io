@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: "志海融新"
-  tagline: Zen Harmony Team
+  name: "Zen Harmony Team"
+  tagline: Mind like water, unperturbed by waves, all beings coexist, harmoniously fused.
   image: https://avatars.githubusercontent.com/u/185505786?s=200&v=4
   actions:
     - theme: brand
