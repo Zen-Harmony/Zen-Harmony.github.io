@@ -21,9 +21,9 @@ features:
   - icon: 🚀
     title: 'Join Us'
     details: 'We are an inclusive and vibrant family. No matter what profession or field you come from, as long as you love learning, enjoy sharing, and adhere to laws and team rules, you can become a part of us.'
-    link: /en/join-us
+    link: /en/join-in
   - icon: 🤔
     title: "What does Zen Harmony's Chinese name mean?"
-    details: '"志海融新", symbolizing harmony, encapsulates the essence of Zen Harmony Team.'
-    link: /en/chinese-name
+    details: 'contributors'
+    link: /en/meaning
 ---
