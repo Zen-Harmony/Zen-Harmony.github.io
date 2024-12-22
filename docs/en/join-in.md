@@ -1,4 +1,4 @@
-# Join Us
+# Join In
 Welcome to the Zen Harmony Team! We are an inclusive and vibrant family, welcoming friends from all walks of life and fields. Whether you are in what profession or area, you can become a part of us as long as you love learning, enjoy sharing, and abide by laws and regulations as well as team rules.<br>
 Here are our team's rules for joining. Please read them carefully and abide by them:
 
