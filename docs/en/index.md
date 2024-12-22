@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Zen Harmony Team"
-  tagline: Mind like water, unperturbed by waves, all beings coexist, harmoniously fused.
+  tagline: The Mind is like water, unperturbed by waves, all beings coexist, harmoniously fused.
   image: https://avatars.githubusercontent.com/u/185505786?s=200&v=4
   actions:
     - theme: brand
@@ -19,11 +19,11 @@ features:
     link: /en
     details: "Please click the card to read the article."
   - icon: 🚀
-    title: 'Join Us'
-    details: 'We are an inclusive and vibrant family. No matter what profession or field you come from, as long as you love learning, enjoy sharing, and adhere to laws and team rules, you can become a part of us.'
+    title: 'Join In'
+    details: 'Let's work together to build a harbor of warmth and dreams!'
     link: /en/join-in
   - icon: 🤔
-    title: "What does Zen Harmony's Chinese name mean?"
-    details: 'implied-meaning'
+    title: "What does Zen Harmony mean?"
+    details: 'The Mind is like water, unperturbed by waves, all beings coexist, harmoniously fused.'
     link: /en/implied-meaning
 ---
