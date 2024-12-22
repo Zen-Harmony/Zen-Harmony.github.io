@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Zen Harmony Team"
-  tagline: The Mind is like water, unperturbed by waves, all beings coexist, harmoniously fused.
+  tagline: Welcome to Zen Harmony Team.
   image: https://avatars.githubusercontent.com/u/185505786?s=200&v=4
   actions:
     - theme: brand
