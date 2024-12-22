@@ -24,6 +24,6 @@ features:
     link: /en/join-in
   - icon: 🤔
     title: "What does Zen Harmony's Chinese name mean?"
-    details: 'contributors'
-    link: /en/meaning
+    details: 'implied-meaning'
+    link: /en/implied-meaning
 ---
