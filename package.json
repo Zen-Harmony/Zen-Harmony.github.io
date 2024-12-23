@@ -8,6 +8,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@catppuccin/vitepress": "^0.1.0"
+    "@catppuccin/vitepress": "^0.1.0",
+    "sitemap": "^8.0.0"
   }
 }
