@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
-      // 添加图标
       ['link', { rel: 'icon', href: '/img/house-solid.webp' }]
     ],
   cleanUrls: true,
@@ -11,6 +10,7 @@ export default defineConfig({
     hostname: 'https://doc.zen-harmony.top',
     lastmodDateOnly: false
   },
+  base: "/",
   markdown: {
     theme: {
       light: 'catppuccin-latte',
