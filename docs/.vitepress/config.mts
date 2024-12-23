@@ -7,6 +7,10 @@ export default defineConfig({
       ['link', { rel: 'icon', href: '/img/house-solid.webp' }]
     ],
   cleanUrls: true,
+  sitemap: {
+    hostname: 'https://doc.zen-harmony.top',
+    lastmodDateOnly: false
+  },
   markdown: {
     theme: {
       light: 'catppuccin-latte',
