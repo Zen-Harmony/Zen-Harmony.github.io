@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   head: [
-      ['link', { rel: 'icon', href: '/img/house-solid.webp' }]
-    ],
+    ['link', { rel: 'icon', href: '/img/house-solid.webp' }]
+  ],
   cleanUrls: true,
   sitemap: {
     hostname: 'https://www.zen-harmony.top',
@@ -18,27 +18,12 @@ export default defineConfig({
     },
   },
   locales: {
-    en: {
-      label: 'English',
-      lang: 'en',
-      title: "Zen Harmony Team",
-      description: "志海融新",
-      themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
-        nav: [
-          { text: 'Home', link: '/en/index' },
-          { text: 'Linux Knowledge Base', link: 'https://doc.zen-harmony.top/en' },
-          { text: 'QQ Group', link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0&group_code=985191565' }
-        ],
-      }
-    },
     root: {
       label: '简体中文',
       lang: 'zh-CN',
       title: "志海融新",
       description: "Zen Harmony Team",
       themeConfig: {
-        // https://vitepress.dev/reference/default-theme-config
         nav: [
           { text: '主页', link: '/' },
           { text: 'Linux 觅知园', link: 'https://doc.zen-harmony.top' },
@@ -53,6 +38,19 @@ export default defineConfig({
         sidebarMenuLabel: '目录',
         returnToTopLabel: '返回顶部',
       }
+    },
+    en: {
+      label: 'English',
+      lang: 'en',
+      title: "Zen Harmony Team",
+      description: "志海融新",
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/en/index' },
+          { text: 'Linux Knowledge Base', link: 'https://doc.zen-harmony.top/en' },
+          { text: 'QQ Group', link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0&group_code=985191565' }
+        ],
+      }
     }
   },
   themeConfig: {
@@ -60,7 +58,7 @@ export default defineConfig({
       provider: 'local'
     },
     socialLinks: [
-          { icon: 'github', link: 'https://github.com/Zen-Harmony' }
+      { icon: 'github', link: 'https://github.com/Zen-Harmony' }
     ]
   }
 })
