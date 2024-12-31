@@ -33,7 +33,7 @@ export default defineConfig({
         ],
         lastUpdatedText: '上次更新',
         editLink: {
-          pattern: 'https://github.com/zen-harmony/doc-zy/edit/main/docs/:path',
+          pattern: 'https://github.com/Zen-Harmony/Zen-Harmony.github.io/edit/main/docs/:path',
           text: '在 GitHub 上编辑此页'
         },
         docFooter: {
