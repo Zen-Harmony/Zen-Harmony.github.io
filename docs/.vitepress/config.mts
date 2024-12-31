@@ -1,8 +1,9 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
+// VitePress site configuration
 export default defineConfig({
   head: [
+    // Link to the favicon
     ['link', { rel: 'icon', href: '/img/house-solid.webp' }]
   ],
   cleanUrls: true,
@@ -13,11 +14,12 @@ export default defineConfig({
   base: "/",
   markdown: {
     theme: {
-      light: 'catppuccin-latte',
-      dark: 'catppuccin-mocha',
+      light: 'catppuccin-latte',  // Light theme
+      dark: 'catppuccin-mocha',   // Dark theme
     },
   },
   locales: {
+    // Configuration for Simplified Chinese locale
     root: {
       label: '简体中文',
       lang: 'zh-CN',
@@ -29,6 +31,11 @@ export default defineConfig({
           { text: 'Linux 觅知园', link: 'https://doc.zen-harmony.top' },
           { text: 'QQ 群', link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0&group_code=985191565' }
         ],
+        lastUpdatedText: '上次更新',
+        editLink: {
+          pattern: 'https://github.com/zen-harmony/doc-zy/edit/main/docs/:path',
+          text: '在 GitHub 上编辑此页'
+        },
         docFooter: {
           prev: '上一页',
           next: '下一页'
@@ -40,6 +47,7 @@ export default defineConfig({
         lastUpdated: true 
       }
     },
+    // Configuration for English locale
     en: {
       label: 'English',
       lang: 'en',
