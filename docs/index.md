@@ -14,7 +14,7 @@ hero:
       link: https://doc.zen-harmony.top
     
 features:
-  - icon: 📖
+  - icon: 🔊
     title: '团队动态'
     link: /team-dynamics
     details: '请点击卡片以前往团队动态。'
