@@ -15,9 +15,9 @@ hero:
     
 features:
   - icon: 📖
-    title: '教程站'
-    link: https://tutorial.zen-harmony.top
-    details: '请点击卡片以前往教程站。'
+    title: '团队动态'
+    link: /team-dynamics
+    details: '请点击卡片以前往团队动态。'
   - icon: 🚀
     title: '加入我们'
     details: '大家一起携手共筑温暖与梦想的港湾！'
