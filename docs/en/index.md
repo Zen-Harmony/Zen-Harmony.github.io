@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Zen Harmony Team
   tagline: Welcome to Zen Harmony Team.
-  image: https://avatars.githubusercontent.com/u/185505786?s=200&v=4
+  image: /img/site-logo.webp
   actions:
     - theme: brand
       text: GitHub
