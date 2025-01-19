@@ -76,7 +76,7 @@ export default defineConfig({
     ],
     lastUpdated: true,
     footer: {
-      message: "<a href=\"https://icp.gov.moe/?keyword=20250668\" target=\"_blank\">萌ICP备20250668号</a><br/>Released under the <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\" target=\"_blank\"> CC-BY-4.0 </a> License.",
+      message: "<a href=\"https://icp.gov.moe/?keyword=20250668\" target=\"_blank\">萌ICP备20250668号</a>",
       copyright: "Copyright © 2025-present <a href=\"https://github.com/Zen-Harmony\" target=\"_blank\">Zen-Harmony</a>",
     },
   }
