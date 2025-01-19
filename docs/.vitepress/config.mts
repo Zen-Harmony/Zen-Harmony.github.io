@@ -29,7 +29,7 @@ export default defineConfig({
         nav: [
           { text: '主页', link: '/' },
           { text: 'Linux 觅知园', link: 'https://doc.zen-harmony.top' },
-          { text: 'QQ 群', link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0&group_code=985191565' }
+          { text: 'QQ 群', link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0' }
         ],
         lastUpdatedText: '上次更新',
         editLink: {
@@ -57,9 +57,13 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/index' },
           { text: 'Linux Knowledge Base', link: 'https://doc.zen-harmony.top/en' },
-          { text: 'QQ Group', link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0&group_code=985191565' }
+          { text: 'QQ Group', link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0' }
         ],
-        lastUpdated: true
+        lastUpdated: true,
+        editLink: {
+          pattern: 'https://github.com/Zen-Harmony/Zen-Harmony.github.io/edit/main/docs/:path',
+          text: 'Edit this page on GitHub'
+        },
       }
     }
   },
@@ -70,6 +74,10 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Zen-Harmony' }
     ],
-    lastUpdated: true
+    lastUpdated: true,
+    footer: {
+      message: "<a href=\"https://icp.gov.moe/?keyword=20250668\" target=\"_blank\">萌ICP备20250668号</a><br/>Released under the <a href=\"https://creativecommons.org/licenses/by/4.0/legalcode\" target=\"_blank\"> CC-BY-4.0 </a> License.",
+      copyright: "Copyright © 2025-present <a href=\"https://github.com/Zen-Harmony\" target=\"_blank\">Zen-Harmony</a>",
+    },
   }
 })
