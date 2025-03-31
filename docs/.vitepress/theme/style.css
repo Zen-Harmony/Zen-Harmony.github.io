@@ -191,3 +191,10 @@ blockquote {
     
     .custom-block {
         transition: all 0.3s ease;
+    }
+    
+    .custom-block:hover {
+        transform: translateX(3px);
+    }
+}
+
