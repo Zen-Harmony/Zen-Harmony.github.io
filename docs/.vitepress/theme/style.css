@@ -1,200 +1,244 @@
-@import url('https://cdn-font.hyperos.mi.com/font/css?family=MiSans_VF:VF:Chinese_Simplify,Latin&display=swap');
-@import url('https://fonts.font.im/css?family=Fira+Mono:400,700');
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors
+ *
+ * Each colors have exact same color scale system with 3 levels of solid
+ * colors with different brightness, and 1 soft color.
+ * 
+ * - `XXX-1`: The most solid color used mainly for colored text. It must
+ *   satisfy the contrast ratio against when used on top of `XXX-soft`.
+ *
+ * - `XXX-2`: The color used mainly for hover state of the button.
+ *
+ * - `XXX-3`: The color for solid background, such as bg color of the button.
+ *   It must satisfy the contrast ratio with pure white (#ffffff) text on
+ *   top of it.
+ *
+ * - `XXX-soft`: The color used for subtle background such as custom container
+ *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
+ *   on top of it.
+ *
+ *   The soft color must be semi transparent alpha channel. This is crucial
+ *   because it allows adding multiple "soft" colors on top of each other
+ *   to create a accent, such as when having inline code block inside
+ *   custom containers.
+ *
+ * - `default`: The color used purely for subtle indication without any
+ *   special meanings attached to it such as bg color for menu hover state.
+ *
+ * - `brand`: Used for primary brand colors, such as link text, button with
+ *   brand theme, etc.
+ *
+ * - `tip`: Used to indicate useful information. The default theme uses the
+ *   brand color for this by default.
+ *
+ * - `warning`: Used to indicate warning to the users. Used in custom
+ *   container, badges, etc.
+ *
+ * - `danger`: Used to show error, or dangerous message to the users. Used
+ *   in custom container, badges, etc.
+ * -------------------------------------------------------------------------- */
+
+ @import url('https://cdn-font.hyperos.mi.com/font/css?family=MiSans_VF:VF:Chinese_Simplify,Latin&display=swap');
+ @import url('https://fonts.font.im/css?family=Fira+Mono:400,700');
 
 :root {
-    --vp-font-family-base: "MiSans VF" !important;
-    --vp-font-family-mono: "Fira Mono" !important;
+      --vp-font-family-base: "MiSans VF" !important;
+      --vp-font-family-mono: "Fira Mono" !important;
+  } 
+
+
+ :root {
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+
+  --vp-c-brand-1: var(--vp-c-indigo-1);
+  --vp-c-brand-2: var(--vp-c-indigo-2);
+  --vp-c-brand-3: var(--vp-c-indigo-3);
+  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-warning-1: var(--vp-c-yellow-1);
+  --vp-c-warning-2: var(--vp-c-yellow-2);
+  --vp-c-warning-3: var(--vp-c-yellow-3);
+  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+
+  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);
 }
 
-/* 主色调 - 采用更现代的紫色和青色搭配 */
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
 :root {
-    --vp-c-brand-1: #8a2be2; /* 紫色 */
-    --vp-c-brand-2: #9932cc;
-    --vp-c-brand-3: #6a5acd;
-    --vp-c-brand-soft: rgba(138, 43, 226, 0.1);
-    
-    /* 辅助色 - 更明亮的颜色 */
-    --vp-c-tip-1: #00bfff; /* 青色 */
-    --vp-c-tip-2: #1e90ff;
-    --vp-c-tip-3: #4169e1;
-    --vp-c-tip-soft: rgba(0, 191, 255, 0.1);
-    
-    --vp-c-warning-1: #ffd700; /* 金色 */
-    --vp-c-warning-2: #ffa500;
-    --vp-c-warning-3: #ff8c00;
-    --vp-c-warning-soft: rgba(255, 215, 0, 0.1);
-    
-    --vp-c-danger-1: #ff6b6b; /* 珊瑚红 */
-    --vp-c-danger-2: #ff6347;
-    --vp-c-danger-3: #ff4500;
-    --vp-c-danger-soft: rgba(255, 107, 107, 0.1);
-    
-    --vp-c-important-1: #9370db; /* 中紫色 */
-    --vp-c-important-2: #ba55d3;
-    --vp-c-important-3: #da70d6;
-    --vp-c-important-soft: rgba(147, 112, 219, 0.1);
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
 
-/* 按钮样式 - 更圆润的按钮 */
-:root {
-    --vp-button-brand-border: transparent;
-    --vp-button-brand-text: var(--vp-c-white);
-    --vp-button-brand-bg: var(--vp-c-brand-1);
-    --vp-button-brand-hover-border: transparent;
-    --vp-button-brand-hover-text: var(--vp-c-white);
-    --vp-button-brand-hover-bg: var(--vp-c-brand-2);
-    --vp-button-brand-active-border: transparent;
-    --vp-button-brand-active-text: var(--vp-c-white);
-    --vp-button-brand-active-bg: var(--vp-c-brand-3);
-}
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
 
-/* 首页英雄区域 - 更炫酷的渐变效果 */
 :root {
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: -webkit-linear-gradient(
-        120deg,
-        var(--vp-c-brand-1) 30%,
-        var(--vp-c-tip-1)
-    );
-    
-    --vp-home-hero-image-background-image: linear-gradient(
-        -45deg,
-        var(--vp-c-white) 50%,
-        var(--vp-c-white) 50%
-    );
-    --vp-home-hero-image-filter: blur(44px);
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    var(--vp-c-brand-1) 30%,
+    var(--vp-c-brand-3)
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    var(--vp-c-white) 50%,
+    var(--vp-c-white) 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
 }
 
 @media (min-width: 640px) {
-    :root {
-        --vp-home-hero-image-filter: blur(56px);
-    }
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
 }
 
 @media (min-width: 960px) {
-    :root {
-        --vp-home-hero-image-filter: blur(68px);
-    }
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
 }
 
-/* 自定义块样式 - 更柔和的边框 */
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
 :root {
-    --vp-custom-block-tip-border: transparent;
-    --vp-custom-block-tip-text: var(--vp-c-text-1);
-    --vp-custom-block-tip-bg: var(--vp-c-tip-soft);
-    --vp-custom-block-tip-code-bg: var(--vp-c-tip-soft);
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--vp-c-text-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
 }
 
-/* Algolia搜索框 */
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
 .DocSearch {
-    --docsearch-primary-color: var(--vp-c-brand-1) !important;
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-/* 文章卡片 - 更活泼的悬停效果 */
+/* article */
+
 a.VPLink.link.no-icon.VPFeature {
-    article.box {
-        border: var(--vp-c-divider) 1px solid;
-        border-radius: 1em;
-        transition: all 0.4s ease;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    }
-    article.box:hover {
-        background-color: var(--vp-c-important-soft);
-        border: var(--vp-c-brand-1) 1px solid;
-        transform: translateY(-5px);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    }
-    article.box:hover .icon {
-        background-color: transparent;
-        transform: scale(1.5);
-    }
-    article.box .icon {
-        border-radius: .5em;
-        transition: all 0.4s ease;
-    }
+  article.box {
+    border: var(--vp-c-divider) 1px solid;
+    border-radius: 0.8em;
+    transition: all 0.4s ease 0s;
+    box-shadow: 10px 10px 10px var(--vp-c-bg-elv);
+  }
+  article.box:hover {
+    background-color: var(--vp-c-important-soft);
+    border: var(--vp-c-brand-1) 1px solid;
+    transition: all 0.4s;
+  }
+  article.box:hover .icon {
+    background-color: transparent;
+    transform: scale(1.8);
+    transition: all 0.4s;
+  }
+  article.box .icon {
+    border-radius: .35em;
+    transition: all 0.4s ease 0s;
+  }
+  border: var(--vp-c-divider) 0px solid;
 }
 
-/* 按钮 - 更圆润的边角 */
+
+/* button */
+
 a.VPButton {
-    border-radius: 1em !important;
-    transition: all 0.3s ease;
+  border-radius: 0.65em !important;
 }
 
 a.VPButton.medium.alt {
-    background-color: var(--vp-c-divider);
+  background-color: var(--vp-c-divider);
 }
 
 a.VPButton.medium.alt:hover {
-    background-color: var(--vp-c-gutter);
+  background-color: var(--vp-c-gutter);
 }
 
-/* 自定义块 - 更鲜艳的颜色 */
+/* Custom Block */
+
+:root {
+  --vp-custom-block-tip-bg: var(--vp-c-green-soft);
+}
+
 .custom-block.tip {
-    border-color: var(--vp-c-tip-1);
-    background-color: var(--vp-c-tip-soft);
+  border-color: var(--vp-c-green-2);
 }
 
 .custom-block.warning {
-    border-color: var(--vp-c-warning-1);
-    background-color: var(--vp-c-warning-soft);
+  border-color: var(--vp-c-yellow-2);
 }
 
 .custom-block.danger {
-    border-color: var(--vp-c-danger-1);
-    background-color: var(--vp-c-danger-soft);
+  border-color: var(--vp-c-red-2);
 }
 
 .custom-block.important {
-    border-color: var(--vp-c-important-1);
-    background-color: var(--vp-c-important-soft);
+  border-color: var(--vp-c-purple-1);
 }
 
 .custom-block.note {
-    border-color: var(--vp-c-brand-1);
-    background-color: var(--vp-c-brand-soft);
+  border-color: var(--vp-c-indigo-1);
 }
 
-/* 链接标记 - 更明显的悬停效果 */
+/* a.mark */
 a.mark {
-    transition: .2s;
-    text-decoration: none !important;
-    background: linear-gradient(var(--vp-c-brand-1), var(--vp-c-brand-1)) no-repeat 0 100% / 100% 1px;
-    color: var(--vp-c-brand-1);
+  transition: .2s;
+  text-decoration: none !important;
+  background: linear-gradient(var(--vp-c-divider), var(--vp-c-divider)) no-repeat 0 100% / 100% 1px;
 }
-
 a.mark:hover {
-    border-radius: 4px;
-    padding: 0px 3px 0px 3px;
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat 0 100% / 100% 100%;
-    color: var(--vp-c-brand-2);
+  border-radius: 4px;
+  padding: 0px 3px 0px 3px;
+  background: linear-gradient(var(--vp-c-divider), var(--vp-c-divider)) no-repeat 0 100% / 100% 100%;
+}
+a.mark:hover::after {
+  content: '' !important;
 }
 
-/* 引用块 - 更现代的外观 */
+/* blockquote */
+
 blockquote {
-    background-color: var(--vp-c-bg-soft);
-    border: 1px solid var(--vp-c-brand-1) !important;
-    border-radius: 1em;
-    padding: 15px 20px !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  background-color: var(--vp-c-bg-soft);
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 0.8em;
+  padding: 10px 15px 10px 15px!important;
 }
 
-/* 标题锚点 */
+/* header-anchor */
 .header-anchor {
-    display: none;
-}
-
-/* 添加一些动画效果 */
-@media (prefers-reduced-motion: no-preference) {
-    a.VPButton:hover {
-        transform: scale(1.05);
-    }
-    
-    .custom-block {
-        transition: all 0.3s ease;
-    }
-    
-    .custom-block:hover {
-        transform: translateX(3px);
-    }
+  display: none;
 }
 
