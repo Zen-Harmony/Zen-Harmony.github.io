@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@catppuccin/vitepress':
-        specifier: ^0.1.0
-        version: 0.1.0(typescript@5.7.2)
+        specifier: ^0.1.1
+        version: 0.1.1(typescript@5.7.2)
     devDependencies:
       vitepress:
         specifier: ^1.6.3
@@ -107,8 +107,8 @@ packages:
     resolution: {integrity: sha512-Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==}
     engines: {node: '>=6.9.0'}
 
-  '@catppuccin/vitepress@0.1.0':
-    resolution: {integrity: sha512-HJilKL8dzidGWwDBNcGVzDmjHocwhaxQ0tleRf0/Aab7MDCHK63jzoYHifXro6mH+AtK120WHfsHiJl54sSaww==}
+  '@catppuccin/vitepress@0.1.1':
+    resolution: {integrity: sha512-CylSuSDnPD7GubvX8/IiJ8oOrbokDsQw8qYtgQdj/JTKhGnKnS11WXoOsOB+bHK1djzqWpOAVO5tQCQHobi1bw==}
     peerDependencies:
       typescript: ^5.0.0
 
@@ -896,7 +896,7 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@catppuccin/vitepress@0.1.0(typescript@5.7.2)':
+  '@catppuccin/vitepress@0.1.1(typescript@5.7.2)':
     dependencies:
       typescript: 5.7.2
 
