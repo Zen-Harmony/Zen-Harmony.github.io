@@ -44,7 +44,7 @@ export default defineConfig({
         returnToTopLabel: '返回顶部',
         lastUpdated: true,
         footer: {
-          message: "<a href=\"https://icp.gov.moe/?keyword=20250668\" target=\"_blank\">萌ICP备20250668号</a><br/>发布在 <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans\" target=\"_blank\">CC BY-SA 4.0</a> 许可证下。",
+          message: "<a href=\"https://icp.gov.moe/?keyword=20250668\" target=\"_blank\">萌ICP备20250668号</a><br/>发布在 <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans\" target=\"_blank\">CC BY-SA 4.0</a> 许可证下",
           copyright: "版权所有 © 2025-present <a href=\"https://github.com/Zen-Harmony\" target=\"_blank\">志海融新</a>"
         }
       }
@@ -66,7 +66,7 @@ export default defineConfig({
           text: 'Edit this page on GitHub'
         },
         footer: {
-          message: "Released under the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\" target=\"_blank\">CC BY-SA 4.0</a> license.",
+          message: "Released under the <a href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\" target=\"_blank\">CC BY-SA 4.0</a> license",
           copyright: "Copyright © 2025-present <a href=\"https://github.com/Zen-Harmony\" target=\"_blank\">Zen-Harmony</a>"
         }
       }

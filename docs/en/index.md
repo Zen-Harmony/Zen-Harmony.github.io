@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: Linux Knowledge Base
       link: https://doc.zen-harmony.top/en
+    - theme: alt
+      text: Linux Tutorials
+      link: https://tutorial.zen-harmony.top
     
 features:
   - icon: 📖
