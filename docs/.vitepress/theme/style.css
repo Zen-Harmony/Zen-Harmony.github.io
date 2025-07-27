@@ -47,7 +47,7 @@
  @import url('https://fonts.font.im/css?family=Fira+Mono:400,700');
 
 :root {
-      --vp-font-family-base: "MiSans VF" !important;
+      --vp-font-family-base: "Inter", "MiSans VF" !important;
       --vp-font-family-mono: "Fira Mono" !important;
   } 
 
@@ -61,7 +61,7 @@
   --vp-c-brand-1: var(--vp-c-indigo-1);
   --vp-c-brand-2: var(--vp-c-indigo-2);
   --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-brand-soft: rgba(203, 166, 247, 0.3);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -149,34 +149,31 @@
 /* article */
 
 a.VPLink.link.no-icon.VPFeature {
+  border-radius: 1.3rem;
+  border: var(--vp-c-divider) 0px solid;
   article.box {
     border: var(--vp-c-divider) 1px solid;
-    border-radius: 0.8em;
+    border-radius: 1.3rem;
     transition: all 0.4s ease 0s;
-    box-shadow: 10px 10px 10px var(--vp-c-bg-elv);
+    box-shadow: var(--vp-c-bg-elv) 0px 15px 25px -5px;
   }
   article.box:hover {
     background-color: var(--vp-c-important-soft);
     border: var(--vp-c-brand-1) 1px solid;
     transition: all 0.4s;
+    transform: scale(1.02);
   }
-  article.box:hover .icon {
+  .icon {
     background-color: transparent;
-    transform: scale(1.8);
-    transition: all 0.4s;
+    scale: 1.6;
   }
-  article.box .icon {
-    border-radius: .35em;
-    transition: all 0.4s ease 0s;
-  }
-  border: var(--vp-c-divider) 0px solid;
 }
 
 
 /* button */
 
 a.VPButton {
-  border-radius: 0.65em !important;
+  border-radius: 0.8rem !important;
 }
 
 a.VPButton.medium.alt {
@@ -213,27 +210,12 @@ a.VPButton.medium.alt:hover {
   border-color: var(--vp-c-indigo-1);
 }
 
-/* a.mark */
-a.mark {
-  transition: .2s;
-  text-decoration: none !important;
-  background: linear-gradient(var(--vp-c-divider), var(--vp-c-divider)) no-repeat 0 100% / 100% 1px;
-}
-a.mark:hover {
-  border-radius: 4px;
-  padding: 0px 3px 0px 3px;
-  background: linear-gradient(var(--vp-c-divider), var(--vp-c-divider)) no-repeat 0 100% / 100% 100%;
-}
-a.mark:hover::after {
-  content: '' !important;
-}
-
 /* blockquote */
 
 blockquote {
   background-color: var(--vp-c-bg-soft);
   border: 1px solid var(--vp-c-divider) !important;
-  border-radius: 0.8em;
+  border-radius: 1.3rem;
   padding: 10px 15px 10px 15px!important;
 }
 
@@ -242,3 +224,42 @@ blockquote {
   display: none;
 }
 
+/* a */
+a {
+  text-decoration: none !important;
+}
+
+.vp-doc a {
+  background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.vp-doc a:hover {
+  border-radius: 9999rem;
+  padding: 1px 7px;
+  background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
+  &::after {
+    content: '';
+  }
+}
+
+/* Counter for section numbers in h2 headings */
+
+.vp-doc {
+  counter-reset: section-counter;
+}
+
+.vp-doc h2 {
+  counter-increment: section-counter;
+}
+
+.vp-doc h2::before {
+  content: counter(section-counter);
+  position: absolute;
+  left: -2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--vp-c-divider);
+  z-index: -1;
+}

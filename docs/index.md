@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: '"志海融新"'
+  name: 志海融新
   tagline: 'Zen Harmony Team'
   image: /img/site-logo.webp
   actions:
@@ -12,7 +12,10 @@ hero:
     - theme: alt
       text: Linux 觅知园
       link: https://doc.zen-harmony.top
-    
+    - theme: alt
+      text: Linux 教程站
+      link: https://tutorial.zen-harmony.top
+
 features:
   - icon: 🔊
     title: '团队动态'
