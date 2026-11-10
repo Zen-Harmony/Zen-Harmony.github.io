@@ -57,7 +57,7 @@ export default defineConfig({
       themeConfig: {
         nav: [
           { text: 'Home', link: '/en/index' },
-          { text: 'Linux Knowledge Base', link: 'https://doc.zen-harmony.top/en' },
+          { text: 'Linux Knowledge Base', link: 'https://zen-harmony.github.io/doc-zy/en' },
           { text: 'QQ Group', link: 'https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=We3ez-d8QzdZpmW3JaYLGiIHlI74be-l&authKey=acLCg%2B1I4ieawMV30RF%2FOnl5tGxzgbK7HExXuZ1pQOkYm9J5VCp9uV4aLe5t0Uw6&noverify=0' },
         ],
         lastUpdated: true,
