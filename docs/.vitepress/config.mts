@@ -7,7 +7,7 @@ export default defineConfig({
   ],
   cleanUrls: true,
   sitemap: {
-    hostname: 'https://www.zen-harmony.top',
+    hostname: 'https://zen-harmony.github.io',
     lastmodDateOnly: false
   },
   base: "/",
