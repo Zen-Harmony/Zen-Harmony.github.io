@@ -11,10 +11,10 @@ hero:
       link: https://github.com/Zen-Harmony
     - theme: alt
       text: Linux 觅知园
-      link: https://doc.zen-harmony.top
+      link: https://zen-harmony.github.io/doc-zy/
     - theme: alt
       text: Linux 教程站
-      link: https://tutorial.zen-harmony.top
+      link: https://zen-harmony.github.io/tutorial/
 
 features:
   - icon: 🔊
